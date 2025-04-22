@@ -1,0 +1,24 @@
+</head>
+<body>
+    <script>
+        async function buscaDados(){
+            const resposta = await fetch("http://localhost:8000/estudantes")
+            console.log(resposta)
+            if(resposta.status === 200){
+            const dados = await resposta.json()
+        console.log(dados)
+            }else{
+                if(resposta.status ===400){
+                    const dados = await resposta.json()
+                    alert(resposta)
+                }else{
+                     alert("Erro Desconhecido!")
+                }
+               
+            }
+        }
+        buscaDados()
+    </script>
+</body>
+
+<h1>• yure</h1>
