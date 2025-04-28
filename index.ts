@@ -43,7 +43,3 @@ app.listen({ port: 8000 }, (erro, endereco) => {
     }
     console.log(`Fastify iniciado na porta: ${endereco}`)
 })
-
-// vai passar por cada elemento dos dados
-// vai criar um li pra cada dados
-// adicionar o li na listra com id "minhalista"

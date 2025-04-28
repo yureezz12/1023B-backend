@@ -8,7 +8,7 @@
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js"
   },
-  "author": "luan",
+  "author": "Guilherme Figueiredo Terenciani",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -19,7 +19,6 @@
   "dependencies": {
     "@fastify/cors": "^11.0.1",
     "fastify": "^5.2.2",
-    "mysql": "^2.18.1",
     "mysql2": "^3.14.0"
   }
 }
