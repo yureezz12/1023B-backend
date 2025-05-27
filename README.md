@@ -10,20 +10,20 @@ O sistema foi desenvolvido para realizar o cadastro e listagem de usuários e pr
 registrar informações em um banco de dados e consultar essas informações de forma
 rápida e amigável.
 Funcionalidades Implementadas:
-● Cadastro de usuários (com id, nome e email)
-● Listagem de usuários
-● Cadastro de produtos (com id, nome e preço)
-● Listagem de produtos
-● Validação de dados
-● Tratamento de erros do MySQL
-● Interface responsiva com Bootstrap
+- Cadastro de usuários (com id, nome e email)
+- Listagem de usuários
+- Cadastro de produtos (com id, nome e preço)
+- Listagem de produtos
+- Validação de dados
+- Tratamento de erros do MySQL
+- Interface responsiva com Bootstrap
 Tecnologias Utilizadas:
-● Back-end: Node.js + MySQL
-● Front-end: HTML + CSS + JavaScript
+ Back-end: Node.js + MySQL
+ Front-end: HTML + CSS + JavaScript
 Instruções para Rodar o Projeto Localmente:
 Requisitos:
-● Node.js instalado
-● MySQL instalado e rodando
+- Node.js instalado
+- MySQL instalado e rodando
 Banco de Dados:
 1. Criar banco de dados:
 CREATE DATABASE banco1023a;
